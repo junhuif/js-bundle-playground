@@ -1,0 +1,10 @@
+{
+  "name": "bundle-playground",
+  "version": "1.0.0",
+  "main": "main.js",
+  "author": "junhui <junhuif@theplant.jp>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup main.js --file bundle.js --format iife"
+  }
+}
